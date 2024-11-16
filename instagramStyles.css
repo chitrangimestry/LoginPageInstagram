@@ -159,6 +159,7 @@ body {
   align-items: center;
   margin-top: 50px;
   margin-right: 110px;
+  position: sticky;
 }
 .footer ul {
   list-style: none;
