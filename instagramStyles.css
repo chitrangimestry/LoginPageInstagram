@@ -1,0 +1,154 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-weight: light; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-container {
+  width: 420px;
+  height: 100%;
+  padding: 20px;
+  margin: 24px;
+  margin-top: 10rem;
+  margin-left: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.login-container img {
+  width: 12rem;
+}
+
+.login-container input {
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  width: 16rem;
+  height: 12px;
+}
+
+.login-container .login-button-container > .login-button {
+  width: 17.4rem;
+  margin-top: 15px;
+  border: 1px solid #236a99;
+  border-radius: 5px;
+  color: white;
+  background-color: #1e89d1;
+  height: 30px;
+  font-weight: bold;
+}
+
+.login-container .login-button-container > .login-button:hover {
+  background-color: #0d639c;
+}
+
+.login-container > .login-fb-container > a {
+  color: #1e89d1;
+  margin-top: 10px;
+}
+
+.login-container > .login-fb-container > a:hover {
+  color: #042e4b;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.login-fb-container > img {
+  width: 19px;
+  height: 23px;
+  display: flex;
+  float: inline-start;
+  margin-right: 10px;
+}
+
+.login-container > .login-forgot-password-container {
+  margin-top: 15px;
+}
+.login-forgot-password-container > .login-forgot-password > a:link {
+  color: #1e89d1;
+  text-decoration: none;
+}
+
+.login-forgot-password-container > .login-forgot-password > a:visited {
+  color: #0d2d42;
+  text-decoration: none;
+}
+
+.login-forgot-password-container > .login-forgot-password > a:hover {
+  color: #042e4b;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.or p {
+  margin-top: 10px;
+  color: lightgrey;
+  font-weight: light;
+}
+
+.sign-up-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 462px;
+  margin-left: 35%;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.sign-up-container a {
+  text-decoration: none;
+  color: #1e89d1;
+  font-weight: bold;
+}
+
+.sign-up-container a:hover {
+  color: #042e4b;
+  text-decoration: underline;
+  padding-bottom: 5px;
+}
+
+.get-app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 27px;
+  margin-right: 110px;
+}
+
+.get-on{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 55rem;
+}
+
+.get-on >.get-it-on-google {
+  max-width: 40%;
+  height: 37px;
+  align-items: center;
+  margin-left: 46rem;
+  margin-top: 15px;
+}
+.get-on >.get-it-on-microsoft {
+  max-width: 40%;
+  height: 37px;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 15px;
+}
