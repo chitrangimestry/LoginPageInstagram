@@ -152,3 +152,28 @@ body {
   margin-left: 2rem;
   margin-top: 15px;
 }
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 110px;
+}
+.footer ul {
+  list-style: none;
+}
+
+.footer > .footer-list > li {
+  display: inline-block;
+  margin-right: 10px; /* add spacing between items */
+  font-weight: lighter;
+}
+
+.footer > .footer-list > li > a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: lighter;
+  font-size: 12px;
+  margin-top: 25px;
+}
