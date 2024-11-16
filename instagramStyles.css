@@ -10,7 +10,7 @@ body {
 }
 
 .login-container {
-  width: 420px;
+  width: 380px;
   height: 100%;
   padding: 20px;
   margin: 24px;
@@ -43,10 +43,10 @@ body {
 .login-container .login-button-container > .login-button {
   width: 17.4rem;
   margin-top: 15px;
-  border: 1px solid #236a99;
+  border: 1px solid #104e77;
   border-radius: 5px;
   color: white;
-  background-color: #1e89d1;
+  background-color: #45aaec;
   height: 30px;
   font-weight: bold;
 }
@@ -104,7 +104,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 56px;
-  width: 462px;
+  width: 420px;
   margin-left: 35%;
   border: 1px solid #dbdbdb;
   text-align: center;
