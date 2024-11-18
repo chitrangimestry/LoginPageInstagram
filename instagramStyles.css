@@ -205,4 +205,6 @@ body {
   margin-top: 25px;
 }
 
-
+.footer > .footer-list > li > a:hover {
+  font-weight: bold;
+ }
