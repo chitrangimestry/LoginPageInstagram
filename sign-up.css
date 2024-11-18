@@ -314,3 +314,8 @@ body {
   font-size: 12px;
   margin-top: 25px;
 }
+
+.footer > .footer-list > li > a:hover {
+ font-weight: bold;
+
+}
