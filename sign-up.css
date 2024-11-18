@@ -87,6 +87,7 @@ body {
   /* margin-bottom: 10px; */
   width: 268px;
   height: 34px;
+  font-weight: bold;
   background-color: #0095F6;
   color: white;
   border: none;
@@ -95,7 +96,6 @@ body {
 
 .sign-in-fb-container > button:hover {
   background-color: #1877F2;
-  font-weight: 500;
 }
 
 .sign-up-container> .or > span > p{ 
